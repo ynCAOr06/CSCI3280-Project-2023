@@ -21,7 +21,8 @@ Huang Chunhao, 1155157299
 ## Useful Links
 ### general python music guideline
 https://realpython.com/playing-and-recording-sound-python/
-
+### "tinytag" python library for meta music management
+https://github.com/devsnd/tinytag
 ### Wave package source file
 https://github.com/python/cpython/blob/main/Lib/wave.py
 ### "music-player" folder reference
