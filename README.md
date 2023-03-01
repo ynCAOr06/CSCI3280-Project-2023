@@ -21,3 +21,7 @@ Huang Chunhao, 1155157299
 
 ## Wave package source file
 https://github.com/python/cpython/blob/main/Lib/wave.py
+## "music-player" folder reference
+https://techvidvan.com/tutorials/python-create-mp3-music-player/
+## "music-player" file reference
+https://data-flair.training/blogs/python-mp3-player/
