@@ -10,5 +10,14 @@ DU Yunhao, 1155157281
 
 Huang Chunhao, 1155157299
 
+# Work Distribution
+| Task | Member | 
+| :----: | :----: | 
+| Lyrics display and timeline | BAI Yuan | 
+| Wave file decoding | CAO Yinnan | 
+| Graphical user interface | DU Yunhao | 
+| File management and searching | Huang Chunhao | 
+
+
 ## Wave package source file
 https://github.com/python/cpython/blob/main/Lib/wave.py
