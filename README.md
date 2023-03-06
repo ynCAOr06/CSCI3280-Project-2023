@@ -33,10 +33,11 @@ https://data-flair.training/blogs/python-mp3-player/
 https://github.com/WarrenWeckesser/wavio
 
 Modifications(March 6th):
-###Dealing with listbox border issues
 
-###Inserting pictures to the GUI
+Dealing with listbox border issues
 
-###Modification on module size and color
+Inserting pictures to the GUI
 
-###Read, store and display the label information of the wav file(name, time, artist, album)
+Modification on module size and color
+
+Read, store and display the label information of the wav file(name, time, artist, album)
