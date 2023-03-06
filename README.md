@@ -32,3 +32,8 @@ https://data-flair.training/blogs/python-mp3-player/
 ### wav io python module
 https://github.com/WarrenWeckesser/wavio
 
+Modifications(March 6th):
+Dealing with listbox border issues
+Inserting pictures to the GUI
+Modification on module size and color
+Read, store and display the label information of the wav file(name, time, artist, album)
