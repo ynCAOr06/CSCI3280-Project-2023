@@ -41,8 +41,10 @@ def Play():
     # update the label
     this_one = songs_list.curselection()
     this_one = this_one[0]
-    text.set(str(namelist[this_one]) + "      " + str(timelist[this_one]) + "      " + str(artistlist[this_one]) + "      " + str(albumlist[this_one]))
-
+    text1.set(str(namelist[this_one]))
+    text2.set(str(timelist[this_one])) 
+    text3.set(str(artistlist[this_one]))
+    text4.set(str(albumlist[this_one]))
 
 # to pause the song
 def Pause():
@@ -81,7 +83,10 @@ def Previous():
     # update the label
     this_one = songs_list.curselection()
     this_one = this_one[0]
-    text.set(str(namelist[this_one]) + "      " + str(timelist[this_one]) + "      " + str(artistlist[this_one]) + "      " + str(albumlist[this_one]))
+    text1.set(str(namelist[this_one]))
+    text2.set(str(timelist[this_one])) 
+    text3.set(str(artistlist[this_one]))
+    text4.set(str(albumlist[this_one]))
 
 
 def Next():
@@ -103,7 +108,10 @@ def Next():
     # update the label
     this_one = songs_list.curselection()
     this_one = this_one[0]
-    text.set(str(namelist[this_one]) + "      " + str(timelist[this_one]) + "      " + str(artistlist[this_one]) + "      " + str(albumlist[this_one]))
+    text1.set(str(namelist[this_one]))
+    text2.set(str(timelist[this_one])) 
+    text3.set(str(artistlist[this_one]))
+    text4.set(str(albumlist[this_one]))
 
 pathlist = []
 namelist = []
@@ -166,9 +174,18 @@ next_button['font'] = defined_font
 next_button.grid(row=1, column=5)
 
 # label
-text = StringVar()
-lb = tkinter.Label(root, textvariable=text,)
-lb.grid(row=2)
+text1 = StringVar()
+text2 = StringVar()
+text3 = StringVar()
+text4 = StringVar()
+lb1 = tkinter.Label(root, textvariable=text1)
+lb1.grid(row=2, column=0)
+lb2 = tkinter.Label(root, textvariable=text2)
+lb2.grid(row=2, column=1)
+lb3 = tkinter.Label(root, textvariable=text3)
+lb3.grid(row=2, column=2)
+lb4 = tkinter.Label(root, textvariable=text4)
+lb4.grid(row=2, column=3)
 # menu
 my_menu = Menu(root)
 root.config(menu=my_menu)
